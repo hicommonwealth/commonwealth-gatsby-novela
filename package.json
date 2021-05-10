@@ -5,7 +5,9 @@
 	"scripts": {
 		"build": "gatsby build && cp -R _redirects public/",
 		"dev": "gatsby develop",
-    "clean": "gatsby clean"
+		"develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "config": "git update-index --skip-worktree .ghost.json"
 	},
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.18.7",
